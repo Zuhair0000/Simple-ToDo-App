@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import { SafeAreaView } from "react-native";
+import { ImageBackground, SafeAreaView } from "react-native";
 import Input from "./components/Input";
 import TodoList from "./components/TodoList";
 
@@ -40,19 +40,26 @@ export default function Index() {
 
   return (
     <LinearGradient colors={["#ddb52f", "#4e0329"]} style={{ flex: 1 }}>
-      <SafeAreaView>
-        <Input
-          handleAddTask={handleAddTask}
-          handleChangeText={handleChangeText}
-          task={task}
-        />
+      <ImageBackground
+        source={require("../assets/images/to-do-list-seamless-pattern-background-business-flat-illustration-checklist-task-list-symbol-pattern-vector.jpg")}
+        style={{ flex: 1 }}
+        resizeMode="cover"
+        imageStyle={{ opacity: 0.07 }}
+      >
+        <SafeAreaView>
+          <Input
+            handleAddTask={handleAddTask}
+            handleChangeText={handleChangeText}
+            task={task}
+          />
 
-        <TodoList
-          todoList={todoList}
-          handleRemoveTask={handleRemoveTask}
-          handleToggleButton={handleToggleButton}
-        />
-      </SafeAreaView>
+          <TodoList
+            todoList={todoList}
+            handleRemoveTask={handleRemoveTask}
+            handleToggleButton={handleToggleButton}
+          />
+        </SafeAreaView>
+      </ImageBackground>
     </LinearGradient>
   );
 }

@@ -16,10 +16,10 @@ const Input = ({ handleAddTask, handleChangeText, task }: props) => {
         value={task}
         onChangeText={handleChangeText}
         placeholder="What's you plans..."
-        placeholderTextColor="#cccccc"
+        placeholderTextColor="#555"
       />
 
-      <Button onPress={handleAddTask}>Add task!</Button>
+      <Button onPress={handleAddTask}>Add Task!</Button>
     </View>
   );
 };
@@ -31,11 +31,11 @@ const styles = StyleSheet.create({
   },
   inputField: {
     borderWidth: 2,
-    padding: 16,
+    padding: 12,
     marginBottom: 8,
     borderRadius: 8,
     color: "#4e0329",
-    fontSize: 15,
+    fontSize: 20,
     fontWeight: "bold",
   },
 });
