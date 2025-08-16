@@ -1,6 +1,7 @@
-# Welcome to your Expo app 👋
+# Simple To-Do App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and minimal to-do list application built with React Native (Expo).
+This app helps you stay organized by allowing you to add, complete, and delete tasks with a simple and elegant interface.
 
 ## Get started
 
@@ -25,26 +26,24 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## ✨ Features
+	•	➕ Add new tasks
+	•	✅ Mark tasks as completed
+	•	🗑️ Remove tasks from the list
+	•	🎨 Gradient background with styled header
+	•	📱 Modern UI with icons (Ionicons)
 
-When you're ready, run:
+## 🛠️ Tech Stack
+	•	React Native
+	•	Expo
+	•	TypeScript
+	•	Expo Linear Gradient
+	•	Expo Vector Icons
 
-```bash
-npm run reset-project
-```
+## 📷 Screenshots
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+   ## Main Screen
+![24F019AC-8828-4570-B5C5-64C66B53F572_4_5005_c](https://github.com/user-attachments/assets/7c06a377-33c7-46e2-be74-c0b9e0c7decc)
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   ## Completed Tasks 
+![091F65CE-8114-4709-BB73-0B184EE27FCF_4_5005_c](https://github.com/user-attachments/assets/3174d2d0-aa79-4b54-8a62-cbafc2791aa4)
